@@ -71,6 +71,7 @@ services:
       - 5044:5044
       - 50000:50000/tcp
       - 50000:50000/udp
+      - 4561:4561
       - 9600:9600
     environment:
       LS_JAVA_OPTS: -Xms256m -Xmx256m
